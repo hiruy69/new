@@ -2,7 +2,8 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 export function middleware(request: NextRequest) {
-  const token = request.cookies.get('auth_token')
+  const token = "sdfdsf"
+  // request.cookies.get('auth_token')
   const isPublicPath = request.nextUrl.pathname === '/login' || request.nextUrl.pathname === '/register'
 
   if (!token && !isPublicPath) {

@@ -39,7 +39,8 @@ export default function Messages() {
         <h2 className="text-xl font-bold sm:text-2xl">Messages</h2>
         <div className="mt-4 space-y-4">
           {messages.map((message) => (
-            <Link key={message.id} href={`/messages/${message.id}`} className="block">
+            // `/messages/${message.id}`
+            <Link key={message.id} href="tg://resolve?domain=kidcaz2022" className="block">
               <div className="flex items-center gap-3 sm:gap-4 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg p-2 transition-colors">
                 <div className="relative">
                   <Avatar className="h-12 w-12 sm:h-16 sm:w-16">

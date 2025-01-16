@@ -54,14 +54,14 @@ export function ActionButtons({
       >
         <Heart className="h-8 w-8 sm:h-10 sm:w-10" />
       </Button>
-      <Button
+      {/* <Button
         size="icon"
         variant="outline"
         className="h-14 w-14 rounded-full border-[3px] border-purple-500 bg-black/40 text-purple-500 backdrop-blur-sm transition-colors hover:bg-purple-500 hover:text-white sm:h-16 sm:w-16"
         onClick={onBoost}
       >
         <Zap className="h-6 w-6 sm:h-8 sm:w-8" />
-      </Button>
+      </Button> */}
     </div>
   )
 }

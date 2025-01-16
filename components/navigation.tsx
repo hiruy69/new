@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 
 const links = [
   { href: "/", icon: Flame },
-  { href: "/explore", icon: Search },
+  // { href: "/explore", icon: Search },
   { href: "/top-picks", icon: Sparkles, badge: "99+" },
   { href: "/messages", icon: MessageCircle },
   { href: "/profile", icon: User },
