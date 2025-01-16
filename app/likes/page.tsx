@@ -8,7 +8,7 @@ const interests = ["❤️", "Padel", "Running", "Walking", "Has bio"]
 
 const blurredCards = Array(6).fill(null).map((_, i) => ({
   id: `card-${i}`,
-  image: "/placeholder.svg"
+  image: "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png"
 }))
 
 export default function Likes() {
@@ -36,10 +36,10 @@ export default function Likes() {
               className="relative aspect-[4/5] overflow-hidden rounded-xl"
             >
               <Image
-                src={card.image || "/placeholder.svg"}
+                src={card.image || "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png"}
                 alt="Profile preview"
                 fill
-                className="object-cover blur-sm"
+                className="object-cover blur-md"
               />
               <div className="absolute inset-0 bg-black/20" />
             </div>

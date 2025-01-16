@@ -10,8 +10,8 @@ import Image from "next/image"
 export default function AddMedia() {
   const [activeTab, setActiveTab] = useState("edit")
   const [images, setImages] = useState<(string | null)[]>([
-    "/placeholder.svg",
-    "/placeholder.svg",
+    "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png",
+    "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png",
     null,
     null,
     null,
@@ -87,7 +87,7 @@ export default function AddMedia() {
                 {image ? (
                   <div className="group relative h-full w-full">
                     <Image
-                      src={image || "/placeholder.svg"}
+                      src={image || "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png"}
                       alt={`Upload ${index + 1}`}
                       fill
                       className="object-cover"
@@ -116,7 +116,7 @@ export default function AddMedia() {
             <div className="container mx-auto max-w-lg">
               <div className="relative aspect-[3/4] w-full overflow-hidden rounded-xl">
                 <Image
-                  src={nonNullImages[currentPreviewIndex] || "/placeholder.svg"}
+                  src={nonNullImages[currentPreviewIndex] || "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png"}
                   alt="Preview"
                   fill
                   className="object-cover"

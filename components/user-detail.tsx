@@ -32,7 +32,7 @@ export function UserDetail({ user, onClose }: UserDetailProps) {
             <div className="pb-16">
               <div className="relative w-full max-w-full overflow-hidden"> {/* Updated div */}
                 <Image
-                  src={user.images[currentImageIndex] || "/placeholder.svg"}
+                  src={user.images[currentImageIndex] || "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png"}
                   alt={user.name}
                   width={400}
                   height={533}

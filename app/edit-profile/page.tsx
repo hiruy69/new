@@ -12,7 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 
 export default function EditProfile() {
   const router = useRouter()
-  const [profileImage, setProfileImage] = useState<string | null>("/placeholder.svg")
+  const [profileImage, setProfileImage] = useState<string | null>("https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png")
   const fileInputRef = useRef<HTMLInputElement>(null)
 
   const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -41,7 +41,7 @@ export default function EditProfile() {
         <div className="flex flex-col items-center">
           <div className="relative">
             <Image
-              src={profileImage || "/placeholder.svg"}
+              src={profileImage || "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png"}
               alt="Profile"
               width={120}
               height={120}

@@ -12,10 +12,10 @@ const mockUsers: User[] = [
     name: "Kim",
     age: 30,
     images: [
-      "/placeholder.svg",
-      "/placeholder.svg",
-      "/placeholder.svg",
-      "/placeholder.svg"
+      "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png",
+      "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png",
+      "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png",
+      "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png"
     ],
     bio: "Living life to the fullest",
     interests: ["Photography", "Travel", "Art", "Music", "Food"],
@@ -26,9 +26,9 @@ const mockUsers: User[] = [
     name: "Luna",
     age: 24,
     images: [
-      "/placeholder.svg",
-      "/placeholder.svg",
-      "/placeholder.svg"
+      "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png",
+      "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png",
+      "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png"
     ],
     bio: "Adventure seeker and coffee lover",
     interests: ["Hiking", "Photography", "Travel", "Coffee", "Yoga"],
@@ -39,8 +39,8 @@ const mockUsers: User[] = [
     name: "Alex",
     age: 28,
     images: [
-      "/placeholder.svg",
-      "/placeholder.svg"
+      "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png",
+      "https://i.ibb.co/0rsygSg/1-Pi-Hoomzwh9-Plr9-GA26-Jc-A.png"
     ],
     bio: "Tech enthusiast and gamer",
     interests: ["Gaming", "Coding", "Sci-fi", "VR", "Robotics"],
